@@ -1,18 +1,12 @@
-.odd {
-  background-color:rgb(237, 157, 157);
-  font-family: Verdana,"DejaVu Sans",sans-serif;
+.button1 {
+    background-color: black;
+    color: white;
 }
-
-#two {
-  color: blue;
-  font-size: 36px;
+.button2 {
+    background-color: yellow;
+    color: black;
 }
-
-.adjust-font-size{
-  font-size: 24px;
-}
-
-#four {
-  background-color: lightgreen;
-  font-weight: bold;
+.button1, .button2 { /*shared attributes */
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
 }
